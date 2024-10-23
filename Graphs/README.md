@@ -1,5 +1,5 @@
-This project had me create a clock using Unity objects, and then write a script for them to behanve like a clock. 
+This project uses objects to generate boxes along a function, such as sin(x). It extends on stuff about objects, but also uses shaders to add additional visualization.
 
-Scripts use C#, which is a new language for me, but it definitely isn't unfamiliar because of Java experience
+This was a good exercise on scripting objects because I definitely could have done it on my own. Also, it was a good intro to shaders, which I know will get more complicated later.
 
-Overall, the project was a comprehensive intro to Unity, and a good refresher on oop
+This project will probably be expanded on on my own. I often use Desmos to visualize different concepts, but now I can do that here too. I have a few ideas.
