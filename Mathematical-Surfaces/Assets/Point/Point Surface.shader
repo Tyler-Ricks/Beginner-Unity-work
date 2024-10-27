@@ -23,6 +23,7 @@ Shader "Graph/Point Surface" {
         void ConfigureSurface (Input input, inout SurfaceOutputStandard surface) {
             // Use the world position for Albedo (converted to a color)
             surface.Albedo = input.worldPos.xyz * 0.5 + 0.5; // Normalize worldPos to range [0,1]
+            //surface.Albedo = saturate(input.worldPos * 0.5 + 0.5);
             surface.Smoothness = _Smoothness; // Set smoothness from the property
         }
 
